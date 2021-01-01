@@ -1,6 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
 }
 section {
 }
@@ -14,4 +18,142 @@ section {
   height: 500px;
   object-fit: cover;
   object-position: top;
+}
+/*section part one end*/
+
+.about-section {
+  background-color: rgb(237, 241, 244);
+  padding: 70px 0;
+  text-align: center;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+h1 {
+  font-size: 65px;
+  color: #1278b5;
+  text-align: center;
+}
+.about-section p {
+  color: rgb(3, 50, 78);
+  font-size: 20px;
+  width: 550px;
+  margin: auto;
+}
+p strong {
+  background-color: rgb(58, 133, 231);
+  color: white;
+  padding: 3px;
+  display: inline-block;
+}
+
+/*section part two end*/
+
+.portfolio-section {
+  padding: 50px 0;
+  background-color: rgb(172, 197, 235);
+}
+.portfolio {
+  padding: 10px;
+  width: 33.33%;
+  float: left;
+}
+.portfolio p {
+  color: #fff;
+}
+h3 {
+  color: black;
+}
+/*Portfolio section end*/
+
+/*Header section start*/
+.logo {
+  width: 20%;
+  float: left;
+}
+nav {
+  width: 80%;
+  float: left;
+}
+nav ul {
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 15px;
+  display: block;
+  color: #0083f5;
+  transition-duration: 0.3s;
+}
+nav ul li a:hover {
+  background-color: #0083f5;
+  color: white;
+}
+.logo a {
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 15px;
+  display: block;
+  color: #0083f5;
+  font-weight: 900;
+}
+/*layout section start*/
+
+.layout {
+  padding: 50px 0;
+}
+.col-1-3 {
+  height: 200px;
+  width: 33.33%;
+  float: left;
+  padding: 5px;
+}
+.col-1-1 {
+  height: 200px;
+  width: 100%;
+  float: left;
+  padding: 5px;
+}
+.col-1-2 {
+  height: 200px;
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.col-4-6 {
+  height: 200px;
+  width: 66.66%;
+  float: left;
+  padding: 5px;
+}
+.col-1-6 {
+  height: 200px;
+  width: 16.66%;
+  float: left;
+  padding: 5px;
+}
+.green {
+  background-color: green;
+  height: 100%;
+}
+.orange {
+  background-color: orange;
+  height: 100%;
+}
+.purple {
+  background-color: purple;
+  height: 100%;
+}
+.pink {
+  background-color: pink;
+  height: 100%;
 }
